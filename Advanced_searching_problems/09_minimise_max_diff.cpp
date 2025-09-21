@@ -15,4 +15,5 @@ int minimizeMaxDiff(vector<int>& arr,int k){
 int main(){
     vector<int> arr={10,100,300,200,1000,20,30};
     int k=3;
-    cout<<"Min
+    cout<<"Minimized Diff="<<minimizeMaxDiff(arr,k)<<endl;
+}
